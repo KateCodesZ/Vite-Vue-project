@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Shop from '../views/Shop.vue'
-import ProductCart from '../views/ProductCart.vue'
-import Checkout from '../views/Checkout.vue'
-import Login from '../views/auth/Login.vue'
-import Favorites from '../views/user/Favorites.vue'
+import HomeView from '../views/HomeView.vue'
+import ShopView from '../views/ShopView.vue'
+import ProductCartView from '../views/ProductCartView.vue' // renamed
+import CheckoutView from '../views/CheckoutView.vue'
+import LoginView from '../views/auth/LoginView.vue'
+import UserFavoritesView from '../views/user/UserFavoritesView.vue' // renamed
 
 const router = createRouter({
   history: createWebHistory(),
@@ -12,32 +12,32 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: HomeView
     },
     {
       path: '/shop',
       name: 'shop',
-      component: Shop
+      component: ShopView
     },
     {
       path: '/cart',
       name: 'cart',
-      component: ProductCart
+      component: ProductCartView
     },
     {
       path: '/checkout',
       name: 'checkout',
-      component: Checkout
+      component: CheckoutView
     },
     {
       path: '/login',
       name: 'login',
-      component: Login
+      component: LoginView
     },
     {
       path: '/favorites',
       name: 'favorites',
-      component: Favorites
+      component: UserFavoritesView
     }
   ]
 })
