@@ -12,7 +12,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.0.3",
+    "axios": "^1.7.9",
     "pinia": "^2.3.1",
+    "tailwindcss": "^4.0.3",
+    "update-check": "^1.5.4",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
@@ -25,7 +29,7 @@
     "eslint": "^9.19.0",
     "eslint-plugin-vue": "^9.32.0",
     "prettier": "^3.4.2",
-    "vite": "^6.0.5",
+    "vite": "^6.0.11",
     "vue-eslint-parser": "^9.4.3"
   }
 }

@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ShopView from '../views/ShopView.vue'
-import ProductCartView from '../views/ProductCartView.vue' // renamed
+import ProductCartView from '../views/ProductCartView.vue'
 import CheckoutView from '../views/CheckoutView.vue'
 import LoginView from '../views/auth/LoginView.vue'
-import UserFavoritesView from '../views/user/UserFavoritesView.vue' // renamed
+import UserFavoritesView from '../views/user/UserFavoritesView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
