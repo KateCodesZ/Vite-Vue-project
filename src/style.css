@@ -1,1 +1,32 @@
 @import 'tailwindcss';
+
+/* My custom colors */
+@theme {
+  --marianblue: #324376;
+  --mahogany: #bd4b00;
+  --floralwhite: #fff8f0;
+}
+
+.bg-marianblue {
+  background-color: var(--marianblue);
+}
+
+.bg-mahogany {
+  background-color: var(--mahogany);
+}
+
+.bg-floralwhite {
+  background-color: var(--floralwhite);
+}
+
+.text-marianblue {
+  color: var(--marianblue);
+}
+
+.text-mahogany {
+  color: var(--mahogany);
+}
+
+.text-floralwhite {
+  color: var(--floralwhite);
+}

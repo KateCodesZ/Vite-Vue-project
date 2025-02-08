@@ -1,8 +1,4 @@
-<template>
-  <div>
-    <h1>Welcome to Casa Mia</h1>
-  </div>
-</template>
+<template></template>
 
 <script setup>
   defineOptions({
