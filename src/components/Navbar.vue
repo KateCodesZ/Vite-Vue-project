@@ -10,124 +10,126 @@
 </script>
 
 <template>
-  <header>
-    <!-- Mobile Navbar (visible on screens smaller than 1024px) -->
-    <div class="flex justify-between items-center px-3 py-2 lg:hidden">
-      <!-- Left Group: Menu and Search -->
-      <div class="flex items-center space-x-2">
-        <RouterLink
-          to="/menu"
-          aria-label="Öppna Meny"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <MenuIcon class="w-6 h-6 fill-current stroke-current"></MenuIcon>
-        </RouterLink>
-        <RouterLink
-          to="/search"
-          aria-label="Sök"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <SearchIcon class="w-6 h-6"></SearchIcon>
-        </RouterLink>
-      </div>
-      <!-- Logo (mobile) -->
-      <div class="flex items-center">
-        <RouterLink to="/" aria-label="Hem">
-          <Logo2></Logo2>
-        </RouterLink>
-      </div>
-      <!-- Right Group: Favorites, Login, Cart -->
-      <div class="flex items-center space-x-2">
-        <RouterLink
-          to="/favorites"
-          aria-label="Favoriter"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <HeartIcon class="w-6 h-6"></HeartIcon>
-        </RouterLink>
-        <RouterLink
-          to="/login"
-          aria-label="Logga in"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <UserIcon class="w-6 h-6"></UserIcon>
-        </RouterLink>
-        <RouterLink
-          to="/cart"
-          aria-label="Varukorg"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <CartIcon class="w-6 h-6"></CartIcon>
-        </RouterLink>
-      </div>
-    </div>
-
-    <!-- Desktop Navbar (visible on screens 1024px and above) -->
-    <div class="hidden lg:flex items-center justify-between px-8 py-4">
-      <!-- Left Side: Menu and Search -->
-      <div class="flex items-center space-x-6">
-        <RouterLink
-          to="/menu"
-          aria-label="Öppna Meny"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <MenuIcon class="w-6 h-6 mr-2"></MenuIcon>
-          <span>MENY</span>
-        </RouterLink>
-        <div class="relative">
-          <input
-            type="text"
-            placeholder="Sök"
-            class="search-input pl-10 pr-4 py-1 w-64 border border-gray-400 rounded-full text-sm focus:outline-none focus:ring-1 placeholder-gray-400 text-gray-600 transition-all duration-200"
-          />
-          <SearchIcon
-            class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6"
-          ></SearchIcon>
+  <header class="border-b border-gray-300" role="banner">
+    <nav aria-label="Primary Navigation">
+      <!-- Mobile Navbar (visible on screens smaller than 1024px) -->
+      <div class="flex justify-between items-center px-3 py-2 lg:hidden">
+        <!-- Left Group: Menu and Search -->
+        <div class="flex items-center space-x-2">
+          <RouterLink
+            to="/menu"
+            aria-label="Öppna Meny"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <MenuIcon class="w-6 h-6 fill-current stroke-current"></MenuIcon>
+          </RouterLink>
+          <RouterLink
+            to="/search"
+            aria-label="SÖK"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <SearchIcon class="w-6 h-6"></SearchIcon>
+          </RouterLink>
+        </div>
+        <!-- Logo (mobile) -->
+        <div class="flex items-center">
+          <RouterLink to="/" aria-label="Hem">
+            <Logo2></Logo2>
+          </RouterLink>
+        </div>
+        <!-- Right Group: Favorites, Login, Cart -->
+        <div class="flex items-center space-x-2">
+          <RouterLink
+            to="/favorites"
+            aria-label="Favoriter"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <HeartIcon class="w-6 h-6"></HeartIcon>
+          </RouterLink>
+          <RouterLink
+            to="/login"
+            aria-label="Logga in"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <UserIcon class="w-6 h-6"></UserIcon>
+          </RouterLink>
+          <RouterLink
+            to="/cart"
+            aria-label="Varukorg"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <CartIcon class="w-6 h-6"></CartIcon>
+          </RouterLink>
         </div>
       </div>
-      <!-- Logo for Desktop -->
-      <div>
-        <RouterLink to="/" aria-label="Hem">
-          <Logo></Logo>
-        </RouterLink>
+
+      <!-- Desktop Navbar (visible on screens 1024px and above) -->
+      <div class="hidden lg:flex items-center justify-between py-3 container mx-auto px-4">
+        <!-- Left Side: Menu and Search -->
+        <div class="flex items-center space-x-6">
+          <RouterLink
+            to="/menu"
+            aria-label="Öppna Meny"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <MenuIcon class="w-6 h-6 mr-2"></MenuIcon>
+            <span>MENY</span>
+          </RouterLink>
+          <div class="relative">
+            <input
+              type="text"
+              placeholder="SÖK"
+              class="search-input pl-10 pr-4 py-1 w-64 border border-gray-400 rounded-full text-sm focus:outline-none focus:ring-1 placeholder-gray-400 text-gray-600 transition-all duration-200"
+            />
+            <SearchIcon
+              class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6"
+            ></SearchIcon>
+          </div>
+        </div>
+        <!-- Logo for Desktop -->
+        <div>
+          <RouterLink to="/" aria-label="Hem">
+            <Logo></Logo>
+          </RouterLink>
+        </div>
+        <!-- Right Side: Favorites, Login, Cart -->
+        <div class="flex items-center space-x-6">
+          <RouterLink
+            to="/favorites"
+            aria-label="Favoriter"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <HeartIcon class="w-6 h-6 mr-2"></HeartIcon>
+            <span>FAVORITER</span>
+          </RouterLink>
+          <RouterLink
+            to="/login"
+            aria-label="Logga in"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <UserIcon class="w-6 h-6 mr-2"></UserIcon>
+            <span>LOGGA IN</span>
+          </RouterLink>
+          <RouterLink
+            to="/cart"
+            aria-label="Varukorg"
+            class="flex items-center"
+            active-class="text-mahogany"
+          >
+            <CartIcon class="w-6 h-6 mr-2"></CartIcon>
+            <span>VARUKORG</span>
+          </RouterLink>
+        </div>
       </div>
-      <!-- Right Side: Favorites, Login, Cart -->
-      <div class="flex items-center space-x-8">
-        <RouterLink
-          to="/favorites"
-          aria-label="Favoriter"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <HeartIcon class="w-6 h-6 mr-2"></HeartIcon>
-          <span>FAVORITER</span>
-        </RouterLink>
-        <RouterLink
-          to="/login"
-          aria-label="Logga in"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <UserIcon class="w-6 h-6 mr-2"></UserIcon>
-          <span>LOGGA IN</span>
-        </RouterLink>
-        <RouterLink
-          to="/cart"
-          aria-label="Varukorg"
-          class="flex items-center"
-          active-class="text-mahogany"
-        >
-          <CartIcon class="w-6 h-6 mr-2"></CartIcon>
-          <span>VARUKORG</span>
-        </RouterLink>
-      </div>
-    </div>
+    </nav>
   </header>
 </template>
 
