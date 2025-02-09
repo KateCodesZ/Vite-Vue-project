@@ -5,6 +5,13 @@
   --marianblue: #324376;
   --mahogany: #bd4b00;
   --floralwhite: #fff8f0;
+  --mahogany-ring: rgb(189 75 0 / 0.15); /* Reduced opacity to 15% */
+}
+
+/* Add specific input focus styles */
+.search-input:focus {
+  --tw-ring-color: var(--mahogany-ring);
+  border-color: var(--mahogany);
 }
 
 .bg-marianblue {

@@ -5,6 +5,8 @@ import ProductCartView from '../views/ProductCartView.vue'
 import CheckoutView from '../views/CheckoutView.vue'
 import LoginView from '../views/auth/LoginView.vue'
 import UserFavoritesView from '../views/user/UserFavoritesView.vue'
+import MenuView from '../views/MenuView.vue'
+import SearchView from '../views/SearchView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -38,6 +40,16 @@ const router = createRouter({
       path: '/favorites',
       name: 'favorites',
       component: UserFavoritesView
+    },
+    {
+      path: '/menu',
+      name: 'menu',
+      component: MenuView
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: SearchView
     }
   ]
 })
