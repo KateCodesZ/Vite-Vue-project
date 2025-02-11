@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    class="inline-block rounded-sm bg-marianblue text-white px-8 py-3 text-sm font-medium transition hover:scale-110 hover:bg-mahogany hover:shadow-xl focus:ring-3 focus:outline-hidden"
+    class="inline-block rounded-sm bg-marianblue text-white px-8 py-3 text-sm font-medium transition hover:scale-110 hover:bg-mahogany hover:shadow-xl focus:ring-3 focus:outline-hidden cursor-pointer"
     @click="onClick"
   >
     <slot>{{ text }}</slot>
