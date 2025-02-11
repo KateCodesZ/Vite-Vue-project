@@ -10,7 +10,7 @@
 </script>
 
 <template>
-  <header class="border-b border-gray-300" role="banner">
+  <header class="sticky top-0 bg-white border-b border-gray-300" role="banner">
     <nav aria-label="Primary Navigation">
       <!-- Mobile Navbar (visible on screens smaller than 1024px) -->
       <div class="flex justify-between items-center px-3 py-2 lg:hidden">

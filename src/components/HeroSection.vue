@@ -17,7 +17,7 @@
       :src="heroMobile"
       alt="Modern living room featuring a sofa with decorative throw pillows, a glass side table, and elegant glass candleholders for ambient lighting"
     />
-    <section class="px-6 py-8 sm:max-w-[350px] md:max-w-[500px] mx-auto">
+    <section class="px-6 py-8 md:max-w-[500px] mx-auto">
       <h1 class="text-4xl font-semibold text-gray-800 dark:text-white">INREDNING</h1>
       <p class="text-[18px] font-semibold text-gray-600 dark:text-gray-400 uppercase">
         FÖR ATT SKAPA KOMFORT I DITT HEM
