@@ -33,7 +33,7 @@
             <SearchIcon class="w-6 h-6"></SearchIcon>
           </RouterLink>
         </div>
-        <!-- Logo (mobile) -->
+        <!-- Logo for mobile -->
         <div class="flex items-center">
           <RouterLink to="/" aria-label="Hem">
             <Logo2></Logo2>
@@ -69,7 +69,7 @@
       </div>
 
       <!-- Desktop Navbar (visible on screens 1024px and above) -->
-      <div class="hidden lg:flex items-center justify-between py-3 container mx-auto px-4">
+      <div class="hidden lg:flex items-center justify-between container mx-auto px-4 h-[65px]">
         <!-- Left Side: Menu and Search -->
         <div class="flex items-center space-x-6">
           <RouterLink
