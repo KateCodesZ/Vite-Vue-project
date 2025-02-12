@@ -85,7 +85,7 @@
             <input
               type="text"
               placeholder="SÖK"
-              class="search-input pl-10 pr-4 py-1 w-64 border border-gray-400 rounded-full text-sm focus:outline-none focus:ring-1 placeholder-gray-400 text-gray-600 transition-all duration-200"
+              class="pl-10 pr-4 py-1 w-64 border rounded-full text-sm focus:outline-none focus:ring-[0.5px] focus:ring-[var(--color-mahogany)] focus:border-[var(--color-mahogany)] placeholder-gray-400 text-gray-600 transition-all duration-200"
             />
             <SearchIcon
               class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6"

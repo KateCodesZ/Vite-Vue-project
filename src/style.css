@@ -2,42 +2,7 @@
 
 /* My custom colors */
 @theme {
-  --marianblue: #324376;
-  --mahogany: #bd4b00;
-  --floralwhite: #fff8f0;
-  --mahogany-ring: rgb(189 75 0 / 0.15); /* Reduced opacity to 15% */
-}
-
-/* Add specific input focus styles */
-.search-input:focus {
-  --tw-ring-color: var(--mahogany-ring);
-  border-color: var(--mahogany);
-}
-
-.hover\:bg-mahogany:hover {
-  background-color: var(--mahogany);
-}
-
-.bg-marianblue {
-  background-color: var(--marianblue);
-}
-
-.bg-mahogany {
-  background-color: var(--mahogany);
-}
-
-.bg-floralwhite {
-  background-color: var(--floralwhite);
-}
-
-.text-marianblue {
-  color: var(--marianblue);
-}
-
-.text-mahogany {
-  color: var(--mahogany);
-}
-
-.text-floralwhite {
-  color: var(--floralwhite);
+  --color-marianblue: #324376;
+  --color-mahogany: #bd4b00;
+  --color-floralwhite: #fff8f0;
 }
