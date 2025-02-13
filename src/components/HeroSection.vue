@@ -18,11 +18,11 @@
       alt="Modern living room featuring a sofa with decorative throw pillows, a glass side table, and elegant glass candleholders for ambient lighting"
     />
     <section class="px-6 py-8 md:max-w-[500px] mx-auto">
-      <h1 class="text-4xl font-semibold text-gray-800 dark:text-white">INREDNING</h1>
-      <p class="text-[18px] font-semibold text-gray-600 dark:text-gray-400 uppercase">
+      <h1 class="text-4xl md:text-6xl font-semibold text-marianblue dark:text-white">INREDNING</h1>
+      <p class="text-lg font-semibold text-marianblue dark:text-gray-400 uppercase">
         FÖR ATT SKAPA KOMFORT I DITT HEM
       </p>
-      <p class="mt-3 text-gray-600 dark:text-gray-400">
+      <p class="mt-6 text-sm text-gray-800 dark:text-gray-400">
         Små detaljer, stor skillnad – hitta din stil här. Hos Casa Mia hittar du noggrant utvalda
         produkter som gör ditt hem varmt och välkomnande.
       </p>
@@ -59,13 +59,13 @@
         </div>
         <!-- Bottom part: Text and button -->
         <div class="mt-6">
-          <h1 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-6xl">
+          <h1 class="text-3xl font-medium text-marianblue dark:text-white lg:text-6xl">
             INREDNING
           </h1>
-          <p class="text-[18px] font-semibold text-gray-600 dark:text-gray-400 uppercase">
+          <p class="text-[18px] font-semibold text-marianblue dark:text-gray-400 uppercase">
             FÖR ATT SKAPA KOMFORT I DITT HEM
           </p>
-          <p class="mt-3 text-gray-600 dark:text-gray-400">
+          <p class="mt-3 text-gray-800 dark:text-gray-400">
             Små detaljer, stor skillnad – hitta din stil här. Hos Casa Mia hittar du noggrant
             utvalda produkter som gör ditt hem varmt och välkomnande.
           </p>

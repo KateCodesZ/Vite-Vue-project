@@ -19,12 +19,16 @@
 
 <template>
   <div class="max-w-screen-lg mx-auto">
-    <div class="flex justify-between items-center m-2 md:m-6 px-8 lg:px-12">
-      <h2 class="text-lg md:text-xl font-bold">Produkter</h2>
-      <a href="#" class="text-blue-600 underline">VISA ALLA</a>
+    <div class="flex justify-between items-center my-6 md:m-6 px-8 lg:px-12">
+      <h2
+        class="text-3xl md:text-4xl lg:text-5xl font-montserrat-alt text-marianblue font-semibold"
+      >
+        Produkter
+      </h2>
+      <a href="#" class="text-gray-600 font-medium underline">VISA ALLA</a>
     </div>
     <div class="overflow-x-auto">
-      <div class="grid grid-cols-5 gap-4 min-w-max px-8">
+      <div class="grid grid-cols-5 gap-4 min-w-max px-8 my-6">
         <div
           v-for="category in state.categories"
           :key="category.name"
@@ -35,7 +39,7 @@
             :alt="category.name"
             class="sm:h-20 w-20 md:h-30 md:w-30 object-contain"
           />
-          <span class="mt-2 text-xs md:text-sm font-medium">
+          <span class="mt-2 text-xs text-gray-600 md:text-base font-medium">
             {{ category.name }}
           </span>
         </div>

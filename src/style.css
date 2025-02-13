@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&family=Montserrat:wght@100..900&display=swap');
 @import 'tailwindcss';
 
-/* My custom colors */
+* {
+  box-sizing: border-box;
+}
+
+/* My custom tailwind style */
 @theme {
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-montserrat-alt: 'Montserrat Alternates', sans-serif;
   --color-marianblue: #324376;
   --color-mahogany: #bd4b00;
   --color-floralwhite: #fff8f0;
+}
+
+body {
+  font-family: var(--font-montserrat);
+  line-height: 1.2;
+  @apply tracking-wide;
 }
