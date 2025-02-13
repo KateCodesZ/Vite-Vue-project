@@ -28,7 +28,7 @@
       <a href="#" class="text-gray-600 font-medium underline">VISA ALLA</a>
     </div>
     <div class="overflow-x-auto">
-      <div class="grid grid-cols-5 gap-4 min-w-max px-8 my-6">
+      <div class="grid grid-cols-5 gap-4 min-w-max px-8 my-6 mb-10">
         <div
           v-for="category in state.categories"
           :key="category.name"
