@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Doft pinnar",
+    "description": "Våra exklusiva doftpinnar är designade för att förvandla ditt hem till en lugn oas av behaglig doft och harmoni. Tillverkade av premium naturliga rottingpinnar som effektivt absorberar och sprider doftoljor\n\nAntal pinnar per förpackning: 8 st\nKompatibel med alla standarddoftoljor",
+    "price": 159,
+    "category": "ljus",
+    "color": "black",
+    "image": "/data/products/doftpinnar.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "title": "Bordslampa Ray",
+    "description": "Uppladdningsbar bordslampa med justerbart ljus. Den har tre ljuslägen och är dimbar via touch-funktion på lampans huvud. Laddas med USB-C (100 cm sladd ingår, adapter medföljer ej\n\nBatteritiden är 4–10 timmar\nFulladdad på 3 timmar",
+    "price": 399,
+    "category": "lampor",
+    "color": "beige",
+    "image": "/data/products/bordslampaRay.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
+  }
+]
