@@ -106,5 +106,41 @@
     "isNew": false,
     "isSale": false,
     "favorite": false
+  },
+  {
+    "id": 10,
+    "title": "Tallriksset 3 st",
+    "description": "Tallriksset i keramik bestående av tre tallrikar i olika storlekar. Tallrikarna är handgjorda och kan därför variera något i form och färg.\n\nDiameter: 20 cm, 25 cm, 30 cm",
+    "price": 399,
+    "category": "keramik",
+    "color": "brun",
+    "image": "/data/products/tallriksset.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 11,
+    "title": "Doftljus 2 st",
+    "description": "Våra doftljus är tillverkade av 100% sojavax och har en brinntid på 30 timmar. Doftljusen är handgjorda och kommer i en vacker glasburk med lock.\n\nVikt: 200 g",
+    "price": 189,
+    "category": "ljus",
+    "color": "vit",
+    "image": "/data/products/doftljus2st.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 12,
+    "title": "Mugg",
+    "description": "Mugg i keramik med handmålad design. Muggen rymmer 3 dl och tål maskindisk.\n\nHöjd: 10 cm\nDiameter: 8 cm",
+    "price": 79,
+    "category": "keramik",
+    "color": "grön",
+    "image": "/data/products/mugg.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
   }
 ]
