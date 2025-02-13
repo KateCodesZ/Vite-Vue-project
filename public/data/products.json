@@ -70,5 +70,41 @@
     "isNew": true,
     "isSale": false,
     "favorite": false
+  },
+  {
+    "id": 7,
+    "title": "Bordslampa Mona",
+    "description": "Uppladdningsbar bordslampa med justerbart ljus. Den har tre ljuslägen och är dimbar via touch-funktion på lampans huvud. Laddas med USB-C (100 cm sladd ingår, adapter medföljer ej\n\nBatteritiden är 4–10 timmar\nFulladdad på 3 timmar",
+    "price": 379,
+    "category": "lampor",
+    "color": "orange",
+    "image": "/data/products/bordslampaMona.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 8,
+    "title": "Doftljus",
+    "description": "Våra doftljus är tillverkade av 100% sojavax och har en brinntid på 30 timmar. Doftljusen är handgjorda och kommer i en vacker glasburk med lock.\n\nVikt: 200 g",
+    "price": 59,
+    "category": "ljus",
+    "color": "vit",
+    "image": "/data/products/doftljus.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 9,
+    "title": "Bordslampa Lina",
+    "description": "Uppladdningsbar bordslampa med justerbart ljus. Den har tre ljuslägen och är dimbar via touch-funktion på lampans huvud. Laddas med USB-C (100 cm sladd ingår, adapter medföljer ej\n\nBatteritiden är 4–10 timmar\nFulladdad på 3 timmar",
+    "price": 399,
+    "category": "lampor",
+    "color": "grön",
+    "image": "/data/products/bordslampaLina.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
   }
 ]
