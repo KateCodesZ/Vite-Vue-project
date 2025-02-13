@@ -10,7 +10,10 @@
 </script>
 
 <template>
-  <header class="sticky top-0 bg-white border-b border-gray-300" role="banner">
+  <header
+    class="max-w-screen-2xl mx-auto sticky top-0 bg-white border-b border-gray-300"
+    role="banner"
+  >
     <nav aria-label="Primary Navigation">
       <!-- Mobile Navbar (visible on screens smaller than 1024px) -->
       <div class="flex justify-between items-center px-3 py-2 lg:hidden">
@@ -69,7 +72,7 @@
       </div>
 
       <!-- Desktop Navbar (visible on screens 1024px and above) -->
-      <div class="hidden lg:flex items-center justify-between container mx-auto px-4 h-[65px]">
+      <div class="hidden lg:flex items-center justify-between container mx-auto h-[65px]">
         <!-- Left Side: Menu and Search -->
         <div class="flex items-center space-x-6">
           <RouterLink

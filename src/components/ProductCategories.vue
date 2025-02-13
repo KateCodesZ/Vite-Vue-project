@@ -18,7 +18,7 @@
 </script>
 
 <template>
-  <div class="max-w-screen-lg mx-auto">
+  <div class="max-w-screen-xl mx-auto">
     <div class="flex justify-between items-center my-6 md:m-6 px-8 lg:px-12">
       <h2
         class="text-3xl md:text-4xl lg:text-5xl font-montserrat-alt text-marianblue font-semibold"
