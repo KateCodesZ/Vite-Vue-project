@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-  const props = defineProps({
+  defineProps({
     text: {
       type: String,
       required: false
@@ -20,5 +20,3 @@
     }
   })
 </script>
-
-<style scoped></style>
