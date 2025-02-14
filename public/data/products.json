@@ -214,5 +214,41 @@
     "isNew": false,
     "isSale": false,
     "favorite": false
+  },
+  {
+    "id": 19,
+    "title": "Sand Mugg",
+    "description": "Mugg i keramik med handmålad design. Muggen rymmer 3 dl och tål maskindisk.\n\nHöjd: 10 cm\nDiameter: 8 cm",
+    "price": 79,
+    "category": "keramik",
+    "color": "blå",
+    "image": "/data/products/SandMugg.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 20,
+    "title": "Nova tallrikarset 6 st",
+    "description": "Tallriksset i keramik bestående av tre tallrikar i olika storlekar. Tallrikarna är handgjorda och kan därför variera något i form och färg.\n\nDiameter: 20 cm, 25 cm, 30 cm",
+    "price": 579,
+    "category": "keramik",
+    "color": "beige",
+    "image": "/data/products/Novatallrikarset.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 21,
+    "title": "Tallriksset 4 st",
+    "description": "Tallriksset i keramik bestående av tre tallrikar i olika storlekar. Tallrikarna är handgjorda och kan därför variera något i form och färg.\n\nDiameter: 20 cm, 25 cm, 30 cm",
+    "price": 399,
+    "category": "keramik",
+    "color": "blå",
+    "image": "/data/products/tallrikarSet.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
   }
 ]
