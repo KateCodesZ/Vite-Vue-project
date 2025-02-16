@@ -370,5 +370,65 @@
     "isNew": true,
     "isSale": false,
     "favorite": false
+  },
+  {
+    "id": 30,
+    "title": "Wera Vas",
+    "description": "Denna glasvas är skapad med en modern geometrisk design. Den passar lika bra som en dekorativ detalj som för att arrangera blommor eller grenar.\n\nHöjd: 20 cm\nDiameter: 10 cm",
+    "price": 259,
+    "category": "vaser",
+    "color": ["vit", "svart"],
+    "image": "/data/products/VasWera.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 31,
+    "title": "Tulip Vas",
+    "description": "Denna glasvas är skapad med en modern geometrisk design. Den passar lika bra som en dekorativ detalj som för att arrangera blommor eller grenar.\n\nHöjd: 20 cm\nDiameter: 10 cm",
+    "price": 259,
+    "category": "vaser",
+    "color": "vit",
+    "image": "/data/products/VasTulip.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 32,
+    "title": "Mia Vas",
+    "description": "Denna glasvas är skapad med en modern geometrisk design. Den passar lika bra som en dekorativ detalj som för att arrangera blommor eller grenar.\n\nHöjd: 20 cm\nDiameter: 10 cm",
+    "price": 259,
+    "category": "vaser",
+    "color": ["vit", "blue"],
+    "image": "/data/products/VasMia.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 33,
+    "title": "Metalic Vas",
+    "description": "Denna vas är skapad med en modern geometrisk design. Den passar lika bra som en dekorativ detalj som för att arrangera blommor eller grenar.\n\nHöjd: 20 cm\nDiameter: 10 cm",
+    "price": 219,
+    "category": "vaser",
+    "color": ["brun", "silver"],
+    "image": "/data/products/VasMetalic.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 34,
+    "title": "Floa Vas",
+    "description": "Denna glasvas är skapad med en modern geometrisk design. Den passar lika bra som en dekorativ detalj som för att arrangera blommor eller grenar.\n\nHöjd: 20 cm\nDiameter: 10 cm",
+    "price": 239,
+    "category": "vaser",
+    "color": "grön",
+    "image": "/data/products/VasFloa.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
   }
 ]
