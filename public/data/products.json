@@ -310,5 +310,65 @@
     "isNew": false,
     "isSale": true,
     "favorite": false
+  },
+  {
+    "id": 27,
+    "title": "Ullpläd Gul",
+    "description": "Ullpläd i 100% ekologisk ull. Pläden är tillverkad i Sverige och är perfekt att svepa om sig under kyliga kvällar.\n\nTvättråd: Handtvätt\nMått: 130x170 cm",
+    "price": 499,
+    "category": "textil",
+    "color": "gul",
+    "image": "/data/products/YllefiltGul.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 27,
+    "title": "Ullpläd Blå",
+    "description": "Ullpläd i 100% ekologisk ull. Pläden är tillverkad i Sverige och är perfekt att svepa om sig under kyliga kvällar.\n\nTvättråd: Handtvätt\nMått: 130x170 cm",
+    "price": 499,
+    "category": "textil",
+    "color": "blå",
+    "image": "/data/products/YllefiltBlå.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 27,
+    "title": "Ullpläd Lila",
+    "description": "Ullpläd i 100% ekologisk ull. Pläden är tillverkad i Sverige och är perfekt att svepa om sig under kyliga kvällar.\n\nTvättråd: Handtvätt\nMått: 130x170 cm",
+    "price": 499,
+    "category": "textil",
+    "color": "lila",
+    "image": "/data/products/YllefiltLila.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 28,
+    "title": "Kuddfodral 3 st",
+    "description": "Kuddfodral i 100% ekologisk bomull. Kuddfodralen har en oxfordkant runt om\n\nTvättråd: Maskintvätt 60°C\nTrådtäthet 144 TC. ",
+    "price": 299,
+    "category": "textil",
+    "color": ["beige", "svart"],
+    "image": "/data/products/Kuddfodralset3st.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 29,
+    "title": "Påslakanset Dusty Rose",
+    "description": "Påslakan i 100% ekologisk bomull. Påslakanet har en dold knappslå och kuddfodralen har en oxfordkant runt om\n\nTvättråd: Maskintvätt 60°C\nTrådtäthet 144 TC. ",
+    "price": 499,
+    "category": "textil",
+    "color": "orange",
+    "image": "/data/products/påslakansetDustyRose.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
   }
 ]
