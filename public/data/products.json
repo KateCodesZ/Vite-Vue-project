@@ -245,10 +245,70 @@
     "description": "Tallriksset i keramik bestående av tre tallrikar i olika storlekar. Tallrikarna är handgjorda och kan därför variera något i form och färg.\n\nDiameter: 20 cm, 25 cm, 30 cm",
     "price": 399,
     "category": "keramik",
-    "color": "blå",
+    "color": ["blå", "gul"],
     "image": "/data/products/tallrikarSet.webp",
     "isNew": false,
     "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 22,
+    "title": "Ljus Eva",
+    "description": "Våra doftljus är tillverkade av 100% sojavax och har en brinntid på 30 timmar. Doftljusen är handgjorda och kommer i en vacker glasburk med lock.\n\nVikt: 200 g",
+    "price": 99,
+    "category": "ljus",
+    "color": ["vit", "beige"],
+    "image": "/data/products/ljusEva.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 23,
+    "title": "Ljus Safran 2 st",
+    "description": "Våra doftljus är tillverkade av 100% sojavax och har en brinntid på 30 timmar. Doftljusen är handgjorda och kommer i en vacker glasburk med lock.\n\nVikt: 200 g",
+    "price": 99,
+    "category": "ljus",
+    "color": "röd",
+    "image": "/data/products/ljusSafran.webp",
+    "isNew": false,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 24,
+    "title": "Ljus Kanel 2 st",
+    "description": "Våra doftljus är tillverkade av 100% sojavax och har en brinntid på 30 timmar. Doftljusen är handgjorda och kommer i en vacker glasburk med lock.\n\nVikt: 200 g",
+    "price": 99,
+    "category": "ljus",
+    "color": "brun",
+    "image": "/data/products/ljusKanel.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 25,
+    "title": "Ljus Lilac 2 st",
+    "description": "Våra doftljus är tillverkade av 100% sojavax och har en brinntid på 30 timmar. Doftljusen är handgjorda och kommer i en vacker glasburk med lock.\n\nVikt: 200 g",
+    "price": 99,
+    "category": "ljus",
+    "color": "lila",
+    "image": "/data/products/ljusLilac.webp",
+    "isNew": true,
+    "isSale": false,
+    "favorite": false
+  },
+  {
+    "id": 26,
+    "title": "Ljus Sol 2 st",
+    "description": "Våra doftljus är tillverkade av 100% sojavax och har en brinntid på 30 timmar. Doftljusen är handgjorda och kommer i en vacker glasburk med lock.\n\nVikt: 200 g",
+    "price": 99,
+    "category": "ljus",
+    "color": "gul",
+    "image": "/data/products/ljusLilac.webp",
+    "isNew": false,
+    "isSale": true,
     "favorite": false
   }
 ]
