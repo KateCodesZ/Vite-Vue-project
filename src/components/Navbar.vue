@@ -11,7 +11,7 @@
 
 <template>
   <header
-    class="max-w-screen-2xl mx-auto sticky top-0 bg-white border-b border-gray-300"
+    class="max-w-screen xl:px-10 mx-auto sticky top-0 z-50 bg-white border-b border-gray-300"
     role="banner"
   >
     <nav aria-label="Primary Navigation">

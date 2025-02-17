@@ -15,6 +15,8 @@
     @click="handleOfferClick"
   ></OfferBlock>
 
+  <SaleItems></SaleItems>
+
   <OfferBlock
     :imageSrc="OfferRegImage"
     imageAlt="Two geometric ceramic vasses with floral compositions"
@@ -46,6 +48,7 @@
 <script setup>
   import HeroSection from '../components/HeroSection.vue'
   import ProductCategories from '../components/ProductCategories.vue'
+  import SaleItems from '../components/SaleItems.vue'
   import OfferBlock from '../components/OfferBlock.vue'
   import OfferImage from '../assets/images/offer glasses.jpg'
   import OfferRegImage from '../assets/images/offer reg.jpg'

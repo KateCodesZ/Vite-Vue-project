@@ -164,7 +164,7 @@
     "color": "beige",
     "image": "/data/products/kuddfodral2st.webp",
     "isNew": false,
-    "isSale": false,
+    "isSale": true,
     "favorite": false
   },
   {
@@ -306,7 +306,7 @@
     "price": 99,
     "category": "ljus",
     "color": "gul",
-    "image": "/data/products/ljusLilac.webp",
+    "image": "/data/products/LjusLilac.webp",
     "isNew": false,
     "isSale": true,
     "favorite": false
@@ -414,7 +414,7 @@
     "price": 219,
     "category": "vaser",
     "color": ["brun", "silver"],
-    "image": "/data/products/VasMetalic.webp",
+    "image": "/data/products/vasMetalic.webp",
     "isNew": false,
     "isSale": false,
     "favorite": false
@@ -426,9 +426,9 @@
     "price": 239,
     "category": "vaser",
     "color": "grön",
-    "image": "/data/products/VasFloa.webp",
+    "image": "/data/products/vasFloa.webp",
     "isNew": false,
-    "isSale": false,
+    "isSale": true,
     "favorite": false
   }
 ]
