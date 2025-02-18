@@ -46,7 +46,6 @@
 </template>
 
 <script setup>
-  import { defineProps, defineEmits } from 'vue'
   import BaseButton from './BaseButton.vue'
 
   defineProps({
