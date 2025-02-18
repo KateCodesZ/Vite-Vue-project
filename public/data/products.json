@@ -140,7 +140,7 @@
     "color": "grön",
     "image": "/data/products/mugg.webp",
     "isNew": false,
-    "isSale": false,
+    "isSale": true,
     "favorite": false
   },
   {
@@ -164,7 +164,7 @@
     "color": "beige",
     "image": "/data/products/kuddfodral2st.webp",
     "isNew": false,
-    "isSale": true,
+    "isSale": false,
     "favorite": false
   },
   {
