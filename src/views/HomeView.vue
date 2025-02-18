@@ -15,6 +15,7 @@
     @click="handleOfferClick"
   ></OfferBlock>
 
+  <NewItems></NewItems>
   <SaleItems></SaleItems>
 
   <OfferBlock
@@ -48,6 +49,7 @@
 <script setup>
   import HeroSection from '../components/HeroSection.vue'
   import ProductCategories from '../components/ProductCategories.vue'
+  import NewItems from '../components/NewItems.vue'
   import SaleItems from '../components/SaleItems.vue'
   import OfferBlock from '../components/OfferBlock.vue'
   import OfferImage from '../assets/images/offer glasses.jpg'
