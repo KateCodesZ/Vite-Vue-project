@@ -25,7 +25,9 @@
       >
         Produkter
       </h2>
-      <a href="#" class="text-gray-600 font-medium underline">VISA ALLA</a>
+      <router-link to="/shop" class="text-gray-600 font-medium underline hover:text-gray-800">
+        VISA ALLA
+      </router-link>
     </div>
     <div class="overflow-x-auto">
       <div class="grid grid-cols-5 gap-4 min-w-max px-8 my-6 mb-10">
