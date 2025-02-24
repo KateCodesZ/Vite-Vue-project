@@ -294,7 +294,7 @@
     "price": 99,
     "category": "ljus",
     "color": "lila",
-    "image": "/data/products/ljusLilac.webp",
+    "image": "/data/products/LjusLilac.webp",
     "isNew": true,
     "isSale": false,
     "favorite": false
@@ -306,7 +306,7 @@
     "price": 99,
     "category": "ljus",
     "color": "gul",
-    "image": "/data/products/LjusLilac.webp",
+    "image": "/data/products/LjusSol.webp",
     "isNew": false,
     "isSale": true,
     "favorite": false

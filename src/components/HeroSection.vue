@@ -1,11 +1,14 @@
 <script setup>
+  import { useRouter } from 'vue-router'
   import heroImage1 from '../assets/images/hero desktop 1.jpg'
   import heroImage2 from '../assets/images/hero desktop 2.jpg'
   import heroMobile from '../assets/images/hero mobile.jpg'
   import BaseButton from './BaseButton.vue'
 
+  const router = useRouter()
+
   const onHandleClick = () => {
-    console.log('Navigating to shop...')
+    router.push('/shop')
   }
 </script>
 
